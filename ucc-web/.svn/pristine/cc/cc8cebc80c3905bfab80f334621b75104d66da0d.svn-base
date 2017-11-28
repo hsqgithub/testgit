@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Inspire || Responsive html5 Business template</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+
+
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+		<!-- Fix Internet Explorer ______________________________________-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+			
+	</head>
+
+	<body>
+		<div class="main-page-wrapper">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+			</div>
+
+			<!-- ===================================================
+				Toggle Menu Content Wrapper
+			==================================================== -->
+			<div id="hidden-aside-menu">
+				<div class="opacity">
+					<button class="close-aside-menu tran3s round-border">
+						<i class="fa fa-close" aria-hidden="true"></i>
+					</button>
+
+					<div class="aside-menu-wrapper">
+						<a href="index.html" class="logo"><img src="images/logo/logo.png" alt="Logo"></a>
+						
+						<ul class="main-nav-wrapper">
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-home" aria-hidden="true"></span> Home</a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Home version one</a></li>
+									<li><a href="index-2.html">Home version Two</a></li>
+								</ul>
+							</li>
+							<li><a href="about-us.html" class="tran3s"><span class="fa fa-info-circle" aria-hidden="true"></span> About Us</a></li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-cog" aria-hidden="true"></span> Services</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">Service version one</a></li>
+									<li><a href="service-v2.html">Service version two</a></li>
+									<li><a href="service-v3.html">Service version three</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder current-active"><a href="#"><span class="fa fa-external-link-square" aria-hidden="true"></span> Pages</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">portfolio version one</a></li>
+									<li><a href="portfoilo-v2.html">portfolio version two</a></li>
+									<li><a href="portfoilo-v3.html">portfolio version three</a></li>
+									<li><a href="team.html">Our team</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-newspaper-o" aria-hidden="true"></span> News</a>
+								<ul class="sub-menu">
+									<li><a href="news.html">blog</a></li>
+									<li><a href="news-details.html">Blog Details</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html" class="tran3s"><span class="fa fa-envelope" aria-hidden="true"></span> Contact us</a></li>
+						</ul>
+					</div> <!-- /.aside-menu-wrapper -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.hidden-aside-menu -->
+
+
+			<!-- 
+			=============================================
+				Theme Header
+			============================================== 
+			-->
+			<header class="theme-menu-wrapper">
+				<div class="container-fluid">
+					<!-- Logo -->
+					<div class="logo float-left"><a href="index.html"><img src="images/logo/logo.png" alt="Logo"></a></div>
+					
+					<!-- Toggle Menu Button -->
+					<button class="toggle-show-menu-button float-right">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+
+					<!-- Search Bar -->
+					<div class="search-option float-right">
+				   		<button class="search tran3s dropdown-toggle" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+				   		<form action="#" class="p-color-bg dropdown-menu tran3s" aria-labelledby="searchDropdown">
+				   			<input type="text" placeholder="Search....">
+				   			<button class="p-color-bg"><i class="fa fa-search" aria-hidden="true"></i></button>
+				   		</form>
+				   </div> <!-- /.search-option -->
+
+					<!-- Curt Button -->
+					<button class="cart-button float-right">
+						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<span class="round-border">0</span>
+					</button>
+
+					<!-- ============================ Theme Menu ========================= -->
+					<nav class="theme-main-menu float-right">
+						<ul>
+							<li class="dropdown-holder"><a href="#" class="tran3s">Home</a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Home version one</a></li>
+									<li><a href="index-2.html">Home version Two</a></li>
+								</ul>
+							</li>
+							<li><a href="about-us.html" class="tran3s">About Us</a></li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">Services</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">Service version one</a></li>
+									<li><a href="service-v2.html">Service version two</a></li>
+									<li><a href="service-v3.html">Service version three</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">Pages</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">portfolio version one</a></li>
+									<li><a href="portfoilo-v2.html">portfolio version two</a></li>
+									<li><a href="portfoilo-v3.html">portfolio version three</a></li>
+									<li><a href="team.html">Our team</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">News</a>
+								<ul class="sub-menu">
+									<li><a href="news.html">blog</a></li>
+									<li><a href="news-details.html">Blog Details</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html" class="tran3s">Contact us</a></li>
+						</ul>
+					</nav> <!-- /.theme-main-menu -->
+				</div> <!-- /.container -->
+			</header> <!-- /.theme-menu-wrapper -->
+
+
+
+			<!-- 
+			=============================================
+				Inner banner
+			============================================== 
+			-->
+			<div class="inner-banner">
+				<div class="opacity">
+					<div class="container">
+						<h2>Portfolio</h2>
+						<ul>
+							<li><a href="index.html" class="tran3s">Home</a></li>
+							<li>/</li>
+							<li>Gallery</li>
+						</ul>
+					</div> <!-- /.container -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.inner-banner -->
+
+
+			
+			<!-- 
+			=============================================
+				Project Section
+			============================================== 
+			-->
+			<section class="project-section wow fadeInUp project-inner-page">
+				<div class="container isotop-menu-wrapper">
+					<ul class="gallery-menu">
+						<li class="is-checked tran3s" data-filter="*">All</li>
+						<li class="tran3s" data-filter=".design">Graphics Design</li>
+						<li class="tran3s" data-filter=".app">App Development</li>
+						<li class="tran3s" data-filter=".print">Print Design</li>
+						<li class="tran3s" data-filter=".marketing">Marketing</li>
+					</ul>
+				</div> <!-- End .menu_wrapper -->
+
+				<div class="container">
+					<div id="isotop-gallery-wrapper" class="row">
+						<div class="grid-sizer"></div>
+						<div class="isotop-item app marketing">
+							<div class="single-item">
+								<img src="images/project/1.jpg" alt="Image">
+								<a href="images/project/1.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item design print app">
+							<div class="single-item">
+								<img src="images/project/2.jpg" alt="Image">
+								<a href="images/project/2.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item design print">
+							<div class="single-item">
+								<img src="images/project/3.jpg" alt="Image">
+								<a href="images/project/3.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item app print">
+							<div class="single-item">
+								<img src="images/project/4.jpg" alt="Image">
+								<a href="images/project/4.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item app print design">
+							<div class="single-item">
+								<img src="images/project/5.jpg" alt="Image">
+								<a href="images/project/5.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item double-column marketing">
+							<div class="single-item">
+								<img src="images/project/6.jpg" alt="Image">
+								<a href="images/project/6.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+					</div> <!-- /#isotop-gallery-wrapper -->
+				</div>
+			</section> <!-- /.project-section -->
+
+
+
+			<!-- 
+			=============================================
+				Partner Logo
+			============================================== 
+			-->
+			<div class="partent-logo-section">
+				<div class="container">
+					<div id="partner-logo">
+						<div class="item"><img src="images/logo/p-1.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-2.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-3.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-4.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-2.png" alt="logo"></div>
+					</div>
+				</div>
+			</div> <!-- /.partent-logo-section -->
+
+
+			
+			<!-- 
+			=============================================
+				Footer
+			============================================== 
+			-->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-5">
+							<div class="footer-logo">
+								<a href="index.html"><img src="images/logo/logo-footer.png" alt="Logo"></a>
+								<h6>Multipurpose &amp; Creative Agency For Business Thinker.</h6>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-3">
+							<ul>
+								<li><a href="about-us.html" class="tran3s">About us</a></li>
+								<li><a href="#" class="tran3s">Support</a></li>
+								<li><a href="#" class="tran3s">Faq</a></li>
+								<li><a href="service-v2.html" class="tran3s">Services</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-4">
+							<ul>
+								<li><a href="#" class="tran3s">Graphics</a></li>
+								<li><a href="#" class="tran3s">Web Devlopment</a></li>
+								<li><a href="#" class="tran3s">SEO &amp; SMM</a></li>
+								<li><a href="#" class="tran3s">Mobile App</a></li>
+							</ul>
+						</div>
+						<div class="col-md-5 col-xs-12">
+							<form action="#" class="subscribe-form">
+								<h5>Keep me update with all news from inspire.</h5>
+								<input type="text" placeholder="Enter your mail">
+								<button class="tran3s s-color-bg hvr-shutter-out-horizontal">Subscribe</button>
+							</form>
+						</div>
+					</div> <!-- /.row -->
+
+					<div class="bottom-footer clear-fix">
+						<p class="float-left">All Right Reserved 2016 &copy; <a href="http://themeforest.net/user/creativegigs/portfolio" target="_blank" class="tran3s">CreativeGigs</a></p>
+						<ul class="float-right">
+							<li><a href="" class="tran3s round-border"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						</ul>
+					</div> <!-- /.bottom-footer -->
+				</div> <!-- /.container -->
+			</footer>
+
+
+
+	        
+
+	        <!-- Scroll Top Button -->
+			<button class="scroll-top tran3s">
+				<i class="fa fa-angle-up" aria-hidden="true"></i>
+			</button>
+
+
+
+
+
+		<!-- Js File_________________________________ -->
+
+		<!-- j Query -->
+		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+
+		<!-- Vendor js _________ -->
+		<!-- Camera Slider -->
+		<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/camera.min.js'></script>
+
+	    <!-- Progress Bar js -->
+		<script type="text/javascript" src="vendor/skills-master/jquery.skills.js"></script>
+		<!-- isotop -->
+		<script type="text/javascript" src="vendor/isotope.pkgd.min.js"></script>
+
+		<!-- WOW js -->
+		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- owl.carousel -->
+		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- js count to -->
+		<script type="text/javascript" src="vendor/jquery.appear.js"></script>
+		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
+		<!-- fancy box -->
+		<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox.pack.js"></script>
+		<!-- Custom Scroll -->
+		<script src="vendor/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="js/theme.js"></script>
+
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>

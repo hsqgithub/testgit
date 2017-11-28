@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Inspire || Responsive html5 Business template</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+
+
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+		<!-- Fix Internet Explorer ______________________________________-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+			
+	</head>
+
+	<body>
+		<div class="main-page-wrapper">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+			</div>
+
+			<!-- ===================================================
+				Toggle Menu Content Wrapper
+			==================================================== -->
+			<div id="hidden-aside-menu">
+				<div class="opacity">
+					<button class="close-aside-menu tran3s round-border">
+						<i class="fa fa-close" aria-hidden="true"></i>
+					</button>
+
+					<div class="aside-menu-wrapper">
+						<a href="index.html" class="logo"><img src="images/logo/logo.png" alt="Logo"></a>
+						
+						<ul class="main-nav-wrapper">
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-home" aria-hidden="true"></span> Home</a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Home version one</a></li>
+									<li><a href="index-2.html">Home version Two</a></li>
+								</ul>
+							</li>
+							<li><a href="about-us.html" class="tran3s"><span class="fa fa-info-circle" aria-hidden="true"></span> About Us</a></li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-cog" aria-hidden="true"></span> Services</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">Service version one</a></li>
+									<li><a href="service-v2.html">Service version two</a></li>
+									<li><a href="service-v3.html">Service version three</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#"><span class="fa fa-external-link-square" aria-hidden="true"></span> Pages</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">portfolio version one</a></li>
+									<li><a href="portfoilo-v2.html">portfolio version two</a></li>
+									<li><a href="portfoilo-v3.html">portfolio version three</a></li>
+									<li><a href="team.html">Our team</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-newspaper-o" aria-hidden="true"></span> News</a>
+								<ul class="sub-menu">
+									<li><a href="news.html">blog</a></li>
+									<li><a href="news-details.html">Blog Details</a></li>
+								</ul>
+							</li>
+							<li class="current-active"><a href="contact.html" class="tran3s"><span class="fa fa-envelope" aria-hidden="true"></span> Contact us</a></li>
+						</ul>
+					</div> <!-- /.aside-menu-wrapper -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.hidden-aside-menu -->
+
+
+			<!-- 
+			=============================================
+				Theme Header
+			============================================== 
+			-->
+			<header class="theme-menu-wrapper">
+				<div class="container-fluid">
+					<!-- Logo -->
+					<div class="logo float-left"><a href="index.html"><img src="images/logo/logo.png" alt="Logo"></a></div>
+					
+					<!-- Toggle Menu Button -->
+					<button class="toggle-show-menu-button float-right">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+
+					<!-- Search Bar -->
+					<div class="search-option float-right">
+				   		<button class="search tran3s dropdown-toggle" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+				   		<form action="#" class="p-color-bg dropdown-menu tran3s" aria-labelledby="searchDropdown">
+				   			<input type="text" placeholder="Search....">
+				   			<button class="p-color-bg"><i class="fa fa-search" aria-hidden="true"></i></button>
+				   		</form>
+				   </div> <!-- /.search-option -->
+
+					<!-- Curt Button -->
+					<button class="cart-button float-right">
+						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<span class="round-border">0</span>
+					</button>
+
+					<!-- ============================ Theme Menu ========================= -->
+					<nav class="theme-main-menu float-right">
+						<ul>
+							<li class="dropdown-holder"><a href="#" class="tran3s">Home</a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Home version one</a></li>
+									<li><a href="index-2.html">Home version Two</a></li>
+								</ul>
+							</li>
+							<li><a href="about-us.html" class="tran3s">About Us</a></li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">Services</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">Service version one</a></li>
+									<li><a href="service-v2.html">Service version two</a></li>
+									<li><a href="service-v3.html">Service version three</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">Pages</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">portfolio version one</a></li>
+									<li><a href="portfoilo-v2.html">portfolio version two</a></li>
+									<li><a href="portfoilo-v3.html">portfolio version three</a></li>
+									<li><a href="team.html">Our team</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">News</a>
+								<ul class="sub-menu">
+									<li><a href="news.html">blog</a></li>
+									<li><a href="news-details.html">Blog Details</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="tran3s">Contact us</a></li>
+						</ul>
+					</nav> <!-- /.theme-main-menu -->
+				</div> <!-- /.container -->
+			</header> <!-- /.theme-menu-wrapper -->
+
+
+
+			<!-- 
+			=============================================
+				Inner banner
+			============================================== 
+			-->
+			<div class="inner-banner">
+				<div class="opacity">
+					<div class="container">
+						<h2>Contact Us</h2>
+						<ul>
+							<li><a href="index.html" class="tran3s">Home</a></li>
+							<li>/</li>
+							<li>Contact</li>
+						</ul>
+					</div> <!-- /.container -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.inner-banner -->
+
+
+			<!-- 
+			=============================================
+				Google Map
+			============================================== 
+			-->
+			<div id="google-map-area">
+				<div class="google-map" id="contact-google-map" data-map-lat="23.810332" data-map-lng="90.412518" data-icon-path="images/logo/map.png" data-map-title="Find Map" data-map-zoom="10"></div>
+			</div>
+
+
+
+			<!-- 
+			=============================================
+				Contact Form
+			============================================== 
+			-->
+	   		<div class="container contact-us-page">
+	        	<div class="row">
+	        		<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 wow fadeInLeft">
+	        			<div class="contact-us-form">
+	        				<h4>Send Us Message</h4>
+
+	        				<form action="inc/sendemail.php" class="form-validation" autocomplete="off">
+	        					<div class="row">
+	        						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
+	        							<div class="single-input">
+	        								<input type="text" placeholder="Username" name="name">
+	        							</div> <!-- /.single-input -->
+	        						</div> <!-- /.col- -->
+	        						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12">
+	        							<div class="single-input">
+	        								<input type="email" placeholder="Email" name="email">
+	        							</div> <!-- /.single-input -->
+	        						</div> <!-- /.col- -->
+	        						<div class="col-xs-12">
+	        							<div class="single-input">
+	        								<input type="text" placeholder="Phone Number" name="phone">
+	        							</div> <!-- /.single-input -->
+	        						</div> <!-- /.col- -->
+	        						<div class="col-xs-12">
+	        							<div class="single-input">
+	        								<textarea placeholder="Message" name="message"></textarea>
+	        							</div> <!-- /.single-input -->
+	        						</div> <!-- /.col- -->
+	        					</div> <!-- /.row -->
+	        					<button class="tran3s hvr-bounce-to-right">Send</button>
+	        				</form>
+
+	        				<!-- Contact Form Validation Markup -->
+							<!-- Contact alert -->
+							<div class="alert-wrapper" id="alert-success">
+								<div id="success">
+									<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+									<div class="wrapper">
+						               	<p>Your message was sent successfully.</p>
+						             </div>
+						        </div>
+						    </div> <!-- End of .alert_wrapper -->
+						    <div class="alert-wrapper" id="alert-error">
+						        <div id="error">
+						           	<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+						           	<div class="wrapper">
+						               	<p>Sorry!Something Went Wrong.</p>
+						            </div>
+						        </div>
+						    </div> <!-- End of .alert_wrapper -->
+	        			</div> <!-- /.contact-us-form -->
+	        		</div> <!-- /.col- -->
+
+	        		<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 wow fadeInRight">
+	        			<div class="contactUs-address">
+							<h4>Our Address</h4>
+			        		<p>Lorem ipsum dolor sit amet, placerat corrumeu. Qui id illum nullam volutpat, vix te posse malis viri. Mei ludus nusquam elaboraret ex an.</p>
+			        		<div class="single_address clear-fix">
+			        			<div class="icon round-border icon1 float-left"><i class="flaticon-map"></i></div>
+			        			<div class="text float-left">
+			        				<h6>Address</h6>
+			        				<span>Mirpur New Bazar Road,Dhaka-1210</span>
+			        			</div>
+			        		</div> <!-- End of .single_address -->
+			        		<div class="single_address clear-fix">
+			        			<div class="icon round-border icon2 float-left"><i class="flaticon-email"></i></div>
+			        			<div class="text float-left">
+			        				<h6>Email</h6>
+			        				<span>smaple@gmail.com</span>
+			        			</div>
+			        		</div> <!-- End of .single_address -->
+			        		<div class="single_address clear-fix">
+			        			<div class="icon round-border icon3 float-left"><i class="flaticon-call"></i></div>
+			        			<div class="text float-left">
+			        				<h6>Phone</h6>
+			        				<span>(732) 803-01 03, (732) 806-01 04</span>
+			        			</div>
+			        		</div> <!-- End of .single_address -->
+							</div> <!-- /.our-address -->
+	        		</div>
+	        	</div> <!-- /.row -->
+	        </div> <!-- /.container -->
+
+
+
+			<!-- 
+			=============================================
+				Partner Logo
+			============================================== 
+			-->
+			<div class="partent-logo-section">
+				<div class="container">
+					<div id="partner-logo">
+						<div class="item"><img src="images/logo/p-1.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-2.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-3.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-4.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-2.png" alt="logo"></div>
+					</div>
+				</div>
+			</div> <!-- /.partent-logo-section -->
+
+
+
+			
+			<!-- 
+			=============================================
+				Footer
+			============================================== 
+			-->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-5">
+							<div class="footer-logo">
+								<a href="index.html"><img src="images/logo/logo-footer.png" alt="Logo"></a>
+								<h6>Multipurpose &amp; Creative Agency For Business Thinker.</h6>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-3">
+							<ul>
+								<li><a href="about-us.html" class="tran3s">About us</a></li>
+								<li><a href="#" class="tran3s">Support</a></li>
+								<li><a href="#" class="tran3s">Faq</a></li>
+								<li><a href="service-v2.html" class="tran3s">Services</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-4">
+							<ul>
+								<li><a href="#" class="tran3s">Graphics</a></li>
+								<li><a href="#" class="tran3s">Web Devlopment</a></li>
+								<li><a href="#" class="tran3s">SEO &amp; SMM</a></li>
+								<li><a href="#" class="tran3s">Mobile App</a></li>
+							</ul>
+						</div>
+						<div class="col-md-5 col-xs-12">
+							<form action="#" class="subscribe-form">
+								<h5>Keep me update with all news from inspire.</h5>
+								<input type="text" placeholder="Enter your mail">
+								<button class="tran3s s-color-bg hvr-shutter-out-horizontal">Subscribe</button>
+							</form>
+						</div>
+					</div> <!-- /.row -->
+
+					<div class="bottom-footer clear-fix">
+						<p class="float-left">All Right Reserved 2016 &copy; <a href="http://themeforest.net/user/creativegigs/portfolio" target="_blank" class="tran3s">CreativeGigs</a></p>
+						<ul class="float-right">
+							<li><a href="" class="tran3s round-border"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						</ul>
+					</div> <!-- /.bottom-footer -->
+				</div> <!-- /.container -->
+			</footer>
+
+
+
+	        
+
+	        <!-- Scroll Top Button -->
+			<button class="scroll-top tran3s">
+				<i class="fa fa-angle-up" aria-hidden="true"></i>
+			</button>
+
+
+
+
+
+		<!-- Js File_________________________________ -->
+
+		<!-- j Query -->
+		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+
+		<!-- Vendor js _________ -->
+		<!-- Camera Slider -->
+		<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/camera.min.js'></script>
+
+	    <!-- Progress Bar js -->
+		<script type="text/javascript" src="vendor/skills-master/jquery.skills.js"></script>
+		<!-- isotop -->
+		<script type="text/javascript" src="vendor/isotope.pkgd.min.js"></script>
+
+		<!-- WOW js -->
+		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- owl.carousel -->
+		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- js count to -->
+		<script type="text/javascript" src="vendor/jquery.appear.js"></script>
+		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
+		<!-- fancy box -->
+		<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox.pack.js"></script>
+		<!-- Custom Scroll -->
+		<script src="vendor/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- Google map js -->
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3pAn-b0AJNStKXJbqaowuEEB33v3ysnA&callback=googleMap" type="text/javascript"></script> <!-- Gmap Helper -->
+		<script src="vendor/gmaps.min.js"></script>
+		<!-- Validation -->
+		<script type="text/javascript" src="vendor/contact-form/validate.js"></script>
+		<script type="text/javascript" src="vendor/contact-form/jquery.form.js"></script>
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="js/theme.js"></script>
+		<script type="text/javascript" src="js/map-script.js"></script>
+
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>

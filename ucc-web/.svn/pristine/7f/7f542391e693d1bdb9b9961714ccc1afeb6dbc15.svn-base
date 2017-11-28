@@ -1,0 +1,211 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 14/02/2017. 
+    Theme Name   : Inspire.
+    Description  : Inspire || Responsive html5 Business template.
+    Version      : 1.
+    Author       : @creativegigs.
+    Developed by : Jubayer Al Hasan (jubayer.hasan1991@gmail.com).
+   
+*/
+
+
+
+@media (min-width: 992px) {
+	.container {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+@media (max-width: 1500px) {
+    .home-service-section .image-bg-section .opacity a {left:50px;}
+}
+@media (min-width: 992px) and (max-width: 1080px) {
+    .home-service-section .image-bg-section .opacity a {width: 300px;height: 100px;}
+}
+@media (max-width: 1366px) {
+    .scroll-top {bottom: 30px; right:30px;}
+}
+@media (max-width: 1199px) {
+    footer .row [class*="col-"] ul,footer .subscribe-form,.contactUs-address {padding-left: 0;}
+    .theme-large-asidebar {padding-right: 0;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #hidden-aside-menu {width: 320px;}
+    .aside-menu-wrapper .main-nav-wrapper li a {padding: 0 30px;}
+    .aside-menu-wrapper ul .dropdown-holder .sub-menu li a {padding-left: 67px;}
+    #theme-main-banner .camera_caption .container h1 {font-size: 55px;line-height: 55px;margin-top: 70px;}
+    #theme-main-banner .camera_caption .container p {margin: 20px 0 30px 0;font-size: 21px;}
+    .contact-line-banner h4 {font-size: 29px;}
+    #client-slider .item .text,.client-section h2 {padding-left: 100px;}
+    #client-slider .owl-dots {right: -100px;bottom: -30px;}
+    footer .row [class*="col-"] ul li a {font-size: 15px;}
+    footer .subscribe-form h5 {font-size: 18px;}
+    .about-agency-style-two .left-side h2 {font-size: 40px;line-height: 55px;}
+    .about-agency-style-two .left-side h2 span {display: inline-block;}
+    .about-page-top h2 {font-size: 40px;}
+    .single-service-box {padding-left: 12px;padding-right: 12px;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (max-width: 991px) {
+    #hidden-aside-menu {width: 300px;}
+    .aside-menu-wrapper .main-nav-wrapper li a {padding: 0 30px;}
+    .aside-menu-wrapper ul .dropdown-holder .sub-menu li a {padding-left: 67px;}
+    .theme-main-menu {display: none;}
+    #theme-main-banner .camera_caption .container a {font-size: 15px;width: 150px;line-height: 40px;}
+    #theme-main-banner.camera_wrap .camera_pag .camera_pag_ul {left:10px;}
+    .company-skill .skills-progress,.company-skill .text-content,.home-service-section .service-content-holder,
+    .home-service-section .image-bg-section,.about-agency-style-two .left-side,
+    .latest-news .single-news-post .img img,.news-inner-page .single-post-holder .img img,
+    .about-agency-style-two .right-side,.our-team-section .single-team-member .img img,
+    .company-skill.align-right .text-content {width: 100%;}
+    .home-service-section .image-bg-section {position: static;}
+    .company-skill .text-content.float-left {padding: 20px 0 0 0;}
+    .home-service-section .image-bg-section .opacity a {
+    position: static;
+    -webkit-transform: none;
+       -moz-transform: none;
+        -ms-transform: none;
+         -o-transform: none;
+            transform: none;}
+    .home-service-section .image-bg-section .opacity {padding: 150px 0;text-align: center;}
+    .home-service-section {padding-bottom: 0;}
+    .contact-line-banner h4 {font-size: 28px;float:none;margin-bottom: 30px;line-height: 36px;}
+    .contact-line-banner a {float:none; display: block;margin: 0 auto;}
+    .about-agency-style-two .left-side,.company-skill.align-right .text-content  {text-align: left;}
+    .about-agency-style-two .right-side {padding: 50px 0 0 0;}
+    .company-skill.align-right .text-content {padding: 0 0 50px 0;}
+    .pricing-section.color-bg .row .grid-4 {margin-bottom: 50px;}
+    .pricing-section.color-bg .opacity {padding-bottom: 65px;}
+    .contact-block-banner .opacity h3,.satisfied-client h2 {line-height: 45px;}
+    .about-page-top h2 {margin-top: 40px;}
+    .about-page-top img {width: 100%;}
+    .theme-sidebar,.contactUs-address {margin-top: 100px;}
+/*(max-width: 991px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #theme-main-banner .camera_caption .container h1 {font-size: 38px;line-height: 48px;margin-top: 100px;}
+    #theme-main-banner .camera_caption .container p {font-size: 19px;line-height: 28px;}
+    .about-agency .section-title h3 {font-size: 25px;}
+    .about-agency .section-title h6 {margin-bottom: 35px;}
+    .pricing-section .single-price-table strong,.counter-number .counter-box .icon:before {font-size: 50px;}
+    .pricing-section .single-price-table span {font-size: 17px;}
+    .counter-number .counter-box .number {font-size: 40px;margin-top: 8px;}
+    .counter-number .counter-box h6 {font-size: 13px;margin-top: 4px;}
+    #client-slider .item img {width: 30%;}
+    #client-slider .item .text,.client-section h2 {width: 70%;padding-left: 50px;}
+    .client-section h2:before {left:50px;}
+    #client-slider .owl-dots {width: 70%;right: -50px;bottom: -30px;}
+    .pricing-section.image-bg .row [class*="col-"] {padding-left: 15px;padding-right: 15px;}
+    .pricing-section.image-bg .row {margin-right: -15px;margin-left: -15px;}
+    .project-section.pattern-bg #isotop-gallery-wrapper .isotop-item,
+    .project-section.pattern-bg #isotop-gallery-wrapper .grid-sizer,
+    .project-section.pattern-bg #isotop-gallery-wrapper .isotop-item.double-column {width: 33.33333333%;}
+    .pricing-section.color-bg .row .grid-4,.our-service .item {width: 50%;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+    .theme-menu-wrapper .search-option form.dropdown-menu {right: -48px;}
+    #theme-main-banner .camera_caption .container {padding-left: 35px;}
+    #theme-main-banner .camera_caption .container h1 {font-size: 35px;line-height: 45px;margin-top: 70px;}
+    #theme-main-banner .camera_caption .container p {margin: 20px 0 20px 0;font-size: 21px;line-height: 30px;}
+    .about-agency .section-title h3 {font-size: 25px;}
+    .about-agency .section-title h3,.about-agency .section-title a {float:none;}
+    .about-agency .section-title h3:before,.about-agency .section-title h3:after {display: none;}
+    .isotop-menu-wrapper ul {padding: 40px 0 40px 0;}
+    .isotop-menu-wrapper ul li {margin: 10px 3px;}
+    .project-section.pattern-bg .isotop-menu-wrapper ul li {margin: 10px;}
+    .client-section h2:before {left:0;}
+    .client-section h2 {position: static;width: 100%;padding-left: 0;}
+    #client-slider .item img {width: auto;float:none; margin: 50px auto;}
+    #client-slider .item .text {float:none;width: 100%;padding-left: 0;}
+    #client-slider .item .text h6 {margin-top: 0;}
+    #client-slider .owl-dots {width: 100%;right: 0;text-align: center;bottom: -40px;}
+    .home-service-section .service-content-holder>p {margin-top: 10px;}
+    header.theme-menu-wrapper .container-fluid {padding: 0 15px;}
+    .project-section.pattern-bg #isotop-gallery-wrapper .isotop-item,
+    .project-section.pattern-bg #isotop-gallery-wrapper .grid-sizer,
+    .project-section.pattern-bg #isotop-gallery-wrapper .isotop-item.double-column {width: 50%;}
+    .pricing-section.color-bg .row .grid-4,.our-service .item {width: 100%;}
+    .inner-banner .opacity h2 {font-size: 60px;margin-bottom: 15px;}
+    .inner-banner .opacity {padding-top: 195px;}
+    .about-page-top,.inner-banner {margin-bottom: 100px;}
+    #hidden-aside-menu .logo {margin: 45px 0 40px 0;}
+    .aside-menu-wrapper {padding-bottom: 40px;}
+    .news-inner-page .single-post-holder .post h4 a br,.news-details-page .main-post-wrapper .post h4 br {display: none;}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 650px) {
+    #success, #error {
+        width: 86%;
+        height: auto;
+        top: calc(50% - 50px);
+        left: 7%;
+        padding: 30px 10px;
+    }
+    #theme-main-banner .camera_caption .container p span,.about-agency-style-two .left-side h2 span {display: inline-block;}
+    header.theme-menu-wrapper {padding-top: 20px;}
+}
+
+@media (max-width: 600px) {
+  #isotop-gallery-wrapper .isotop-item, #isotop-gallery-wrapper .grid-sizer,
+  #isotop-gallery-wrapper .isotop-item.double-column {width: 50%;}
+  .latest-news .theme-title,.our-team-section .theme-title {float:none;}
+  .latest-news .go-to-blog,.our-team-section .see-all-member {float:none; margin-top:30px;}
+}
+
+@media (max-width: 550px) {
+    footer .bottom-footer p,footer .bottom-footer ul {float:none;text-align: center;}
+    footer .bottom-footer p {margin-bottom: 40px;}
+    .project-section.pattern-bg #isotop-gallery-wrapper .isotop-item,
+    .project-section.pattern-bg #isotop-gallery-wrapper .grid-sizer,
+    .project-section.pattern-bg #isotop-gallery-wrapper .isotop-item.double-column,
+    .project-section.pattern-bg #isotop-gallery-wrapper .isotop-item img {width: 100%;}
+    .about-page-top h2 {font-size: 35px;line-height: 44px;}
+    .about-page-top h2 span {display: inline-block;}
+    .news-details-page .main-post-wrapper .post h6 {margin-right: 0;padding-left: 30px;}
+    .news-details-page .main-post-wrapper .post h6:before {left:0;}
+    .news-details-page .main-post-wrapper .comment-section .single-comment .comment button {position: static;margin-top: 15px;}
+    .news-details-page .main-post-wrapper .comment-section .comment-wrapper {padding: 45px 10px 0 10px;}
+    .news-details-page .main-post-wrapper .comment-section .single-comment.reply-comment {margin-left: 40px;}
+}
+
+@media (max-width: 500px) {
+  .our-team-section .row .col-xs-6 {width: 100%;}
+  .satisfied-client h2 {font-size: 30px;}
+}
+
+@media (max-width: 480px) {
+   .scroll-top {right:5px; bottom: 15px;}
+   .home-service-section .image-bg-section .opacity a {width: 290px;line-height: 100px;}
+   #isotop-gallery-wrapper .isotop-item, #isotop-gallery-wrapper .grid-sizer,
+   #isotop-gallery-wrapper .isotop-item.double-column,#isotop-gallery-wrapper .isotop-item .single-item img {width: 100%;}
+   .inner-banner .opacity h2 {font-size: 55px;margin-bottom: 10px;}
+   .inner-banner .opacity {padding: 150px 0 100px 0;}
+   footer .subscribe-form input {padding: 0 15px;}
+   footer .subscribe-form button {position: static;border:none;margin-top: 20px;}
+   .theme-sidebar .sidebar-recent-news .post h6 a {font-size: 14px;margin-top: -8px;}
+   .theme-sidebar .sidebar-recent-news .post {padding-left: 15px;}
+   .news-inner-page .single-post-holder .post h4 a,.news-details-page .main-post-wrapper .post h4 {font-size: 27px;}
+   .news-details-page .main-post-wrapper .share-option h5,.news-details-page .main-post-wrapper .share-option ul {float:none; text-align: center;}
+   .news-details-page .main-post-wrapper .share-option ul  {margin-top: 20px;}
+}
+
+@media (max-width: 450px) {
+    .contactUs-address .single_address .text {width: 100%;padding-left: 0;margin-top: 25px;}
+}
+
+@media (max-width: 400px) {
+   #theme-main-banner .camera_caption .container a {display: block;margin: 10px 0;}
+   #theme-main-banner.center-item .camera_caption .container a {margin: 10px auto;}
+   #theme-main-banner .camera_caption .container h1 span,.client-section h2 span {display: inline-block;}
+   #theme-main-banner.camera_wrap .camera_pag .camera_pag_ul {display: none;}
+   #theme-main-banner .camera_caption .container {padding-left: 15px;}
+   .satisfied-client .row .item .one-client-text .name {width: 100%;padding: 20px 0 0 0;}
+}

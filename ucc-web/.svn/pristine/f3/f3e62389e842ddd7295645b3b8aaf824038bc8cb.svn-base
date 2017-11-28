@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>UCC 众信博睿 | 众信旅游集团旗下 整合营销核心品牌</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+
+
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+		<!-- Fix Internet Explorer ______________________________________-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+			
+	</head>
+
+	<body>
+		<div class="main-page-wrapper">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+			</div>
+
+			<!-- ===================================================
+				Toggle Menu Content Wrapper
+			==================================================== -->
+			<div id="hidden-aside-menu">
+				<div class="opacity">
+					<button class="close-aside-menu tran3s round-border">
+						<i class="fa fa-close" aria-hidden="true"></i>
+					</button>
+
+					<div class="aside-menu-wrapper">
+						<a href="index.html" class="logo"><img src="images/logo/ucclogo.png" alt="Logo"></a>
+						
+						<ul class="main-nav-wrapper">
+							<li><a href="index.html" class="tran3s"><span class="fa fa-home" aria-hidden="true"></span>首页</a>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-info-circle" aria-hidden="true"></span>我们</a>
+								<ul class="sub-menu">
+									<li><a href="about-us-v1.html">公司简介</a></li>
+									<li><a href="about-us-v2.html">发展历程</a></li>
+									<li><a href="about-us-v3.html">价值理念</a></li>
+									<li><a href="about-us-v4.html">荣誉资质</a></li>
+									<li><a href="about-us-v5.html">企业文化</a></li>
+									<li><a href="about-us-v6.html">服务团队</a></li>
+									<li><a href="about-us-v7.html">服务网络</a></li>
+								</ul>	
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-cog" aria-hidden="true"></span>服务</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">品牌策划</a></li>
+									<li><a href="service-v2.html">公关活动</a></li>
+									<li><a href="service-v3.html">会议管理</a></li>
+									<li><a href="service-v4.html">奖励旅游</a></li>
+									<li><a href="service-v5.html">展览展示</a></li>
+									<li><a href="service-v6.html">目的地营销</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#"><span class="fa fa-external-link-square" aria-hidden="true"></span>品牌</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">UMICE</a></li>
+									<li><a href="portfoilo-v2.html">UEVENT</a></li>
+									<li><a href="portfoilo-v3.html">UEXPO</a></li>
+									<li><a href="portfoilo-v4.html">INSPIRATION</a></li>
+								</ul>
+							</li>
+							<li><a href="news.html" class="tran3s"><span class="fa fa-newspaper-o" aria-hidden="true"></span>新闻</a>
+							</li>
+							<li><a href="contact.html" class="tran3s"><span class="fa fa-envelope" aria-hidden="true"></span>联系</a></li>
+						</ul>
+					</div> <!-- /.aside-menu-wrapper -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.hidden-aside-menu -->
+
+
+			<!-- 
+			=============================================
+				Theme Header
+			============================================== 
+			-->
+			<header class="theme-menu-wrapper">
+				<div class="container-fluid">
+					<!-- Logo -->
+					<div class="logo float-left"><a href="index.html"><img src="images/logo/ucclogo.png" alt="Logo"></a></div>
+					
+					<!-- Toggle Menu Button -->
+					<button class="toggle-show-menu-button float-right">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+
+					<!-- Search Bar -->
+					<div class="search-option float-right">
+				   		<button class="search tran3s dropdown-toggle" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+				   		<form action="#" class="p-color-bg dropdown-menu tran3s" aria-labelledby="searchDropdown">
+				   			<input type="text" placeholder="Search....">
+				   			<button class="p-color-bg"><i class="fa fa-search" aria-hidden="true"></i></button>
+				   		</form>
+				   </div> <!-- /.search-option -->
+
+					<!-- ============================ Theme Menu ========================= -->
+					<nav class="theme-main-menu float-right">
+						<ul>
+							<li><a href="index.html" class="tran3s">首页</a>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">我们</a>
+								<ul class="sub-menu">
+									<li><a href="about-us-v1.html">公司简介</a></li>
+									<li><a href="about-us-v2.html">发展历程</a></li>
+									<li><a href="about-us-v3.html">价值理念</a></li>
+									<li><a href="about-us-v4.html">荣誉资质</a></li>
+									<li><a href="about-us-v5.html">企业文化</a></li>
+									<li><a href="about-us-v6.html">服务团队</a></li>
+									<li><a href="about-us-v7.html">服务网络</a></li>
+								</ul>	
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">服务</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">品牌策划</a></li>
+									<li><a href="service-v2.html">公关活动</a></li>
+									<li><a href="service-v3.html">会议管理</a></li>
+									<li><a href="service-v4.html">奖励旅游</a></li>
+									<li><a href="service-v5.html">展览展示</a></li>
+									<li><a href="service-v6.html">目的地营销</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">品牌</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">UMICE</a></li>
+									<li><a href="portfoilo-v2.html">UEVENT</a></li>
+									<li><a href="portfoilo-v3.html">UEXPO</a></li>
+									<li><a href="portfoilo-v4.html">INSPIRATION</a></li>
+								</ul>
+							</li>
+							<li><a href="news.html" class="tran3s">新闻</a>
+							</li>
+							<li><a href="contact.html" class="tran3s">联系</a></li>
+						</ul>
+					</nav> <!-- /.theme-main-menu -->
+				</div> <!-- /.container -->
+			</header> <!-- /.theme-menu-wrapper -->
+
+
+
+			<!-- 
+			=============================================
+				Inner banner
+			============================================== 
+			-->
+			<div class="inner-banner">
+				<div class="opacity">
+					<div class="container">
+						<h2>服务</h2>
+						<ul>
+							<li><a href="index.html" class="tran3s">首页</a></li>
+							<li>/</li>
+							<li>品牌策划</li>
+						</ul>
+					</div> <!-- /.container -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.inner-banner -->
+
+
+
+			<!-- 
+			=============================================
+				About Page Top Content
+			============================================== 
+			-->
+			<div class="about-page-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-xs-12 wow fadeInLeft"><img src="images/inner-page/2.jpg" alt="Image"></div>
+						<div class="col-md-6 col-xs-12 wow fadeInRight">
+							<h2>We Are <span></span>Inspire Multipurpose &amp; <span></span>Creative Co.</h2>
+							<p>We denounce with righteous indignation and dislike men who are beguiled and demoralized by the charms of pleasure of the moment. so blinded by desire, that they cannot foresee the pain and trouble that are bound  ensue; and equal blame belongs to those who failin their duty through weakness of will, which is the same as saying through shrinkin</p>
+						</div>
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div> <!-- /.about-page-top -->
+
+
+			<!-- 
+			=============================================
+				Footer
+			============================================== 
+			-->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-5">
+							<div class="footer-logo" style="margin-top: 40px">
+								<a href="index.html"><img src="images/logo/logo-footer.png" alt="Logo"></a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-3 aside-menu-wrapper">
+							<ul class="main-nav-wrapper">
+								<li><a href="index.html" class="tran3s">首页</a></li>
+								<li><a href="about-us-v1.html" class="tran3s">我们</a></li>
+								<li><a href="service-v1.html" class="tran3s">服务</a></li>
+						    </ul>
+						</div>
+						<div class="col-md-2 col-sm-3 aside-menu-wrapper">
+							<ul class="main-nav-wrapper">
+								<li><a href="portfoilo-v1.html">品牌</a></li>
+								<li><a href="news.html" class="tran3s">新闻</a></li>
+								<li><a href="contact.html" class="tran3s">联系</a></li>
+							</ul>
+						</div>
+					</div> <!-- /.row -->
+
+					<div class="bottom-footer clear-fix">
+						<p class="float-left">All Right Reserved 2017 &copy; <a href="http://themeforest.net/user/creativegigs/portfolio" target="_blank" class="tran3s">UCC.</a></p>
+						<ul class="float-right">
+							<li><a href="" class="tran3s round-border"><i class="fa fa-weixin" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+						</ul>
+					</div> <!-- /.bottom-footer -->
+				</div> <!-- /.container -->
+			</footer>
+	        <!-- Scroll Top Button -->
+			<button class="scroll-top tran3s">
+				<i class="fa fa-angle-up" aria-hidden="true"></i>
+			</button>
+ 
+
+		<!-- Js File_________________________________ -->
+
+		<!-- j Query -->
+		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+
+		<!-- Vendor js _________ -->
+		<!-- Camera Slider -->
+		<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/camera.min.js'></script>
+
+	    <!-- Progress Bar js -->
+		<script type="text/javascript" src="vendor/skills-master/jquery.skills.js"></script>
+		<!-- isotop -->
+		<script type="text/javascript" src="vendor/isotope.pkgd.min.js"></script>
+
+		<!-- WOW js -->
+		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- owl.carousel -->
+		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- js count to -->
+		<script type="text/javascript" src="vendor/jquery.appear.js"></script>
+		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
+		<!-- fancy box -->
+		<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox.pack.js"></script>
+		<!-- Custom Scroll -->
+		<script src="vendor/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="js/theme.js"></script>
+
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>

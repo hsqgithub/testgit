@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>UCC 众信博睿 | 众信旅游集团旗下 整合营销核心品牌</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+
+
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	
+
+		<!-- Fix Internet Explorer ______________________________________-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+			
+	</head>
+
+	<body>
+		<div class="main-page-wrapper">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+			</div>
+
+			<!-- ===================================================
+				Toggle Menu Content Wrapper
+			==================================================== -->
+			<div id="hidden-aside-menu">
+				<div class="opacity">
+					<button class="close-aside-menu tran3s round-border">
+						<i class="fa fa-close" aria-hidden="true"></i>
+					</button>
+
+					<div class="aside-menu-wrapper">
+						<a href="index.html" class="logo"><img src="images/logo/ucclogo.png" alt="Logo"></a>
+						
+						<ul class="main-nav-wrapper">
+							<li class="current-active"><a href="index.html" class="tran3s"><span class="fa fa-home" aria-hidden="true"></span>首页</a></li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-info-circle" aria-hidden="true"></span>我们</a>
+								<ul class="sub-menu">
+									<li><a href="about-us-v1.html">公司简介</a></li>
+									<li><a href="about-us-v2.html">发展历程</a></li>
+									<li><a href="about-us-v3.html">价值理念</a></li>
+									<li><a href="about-us-v4.html">荣誉资质</a></li>
+									<li><a href="about-us-v5.html">企业文化</a></li>
+									<li><a href="about-us-v6.html">服务团队</a></li>
+									<li><a href="about-us-v7.html">服务网络</a></li>
+								</ul>	
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-cog" aria-hidden="true"></span>服务</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">品牌策划</a></li>
+									<li><a href="service-v2.html">公关活动</a></li>
+									<li><a href="service-v3.html">会议管理</a></li>
+									<li><a href="service-v4.html">奖励旅游</a></li>
+									<li><a href="service-v5.html">展览展示</a></li>
+									<li><a href="service-v6.html">目的地营销</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#"><span class="fa fa-external-link-square" aria-hidden="true"></span>品牌</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">UMICE</a></li>
+									<li><a href="portfoilo-v2.html">UEVENT</a></li>
+									<li><a href="portfoilo-v3.html">UEXPO</a></li>
+									<li><a href="portfoilo-v4.html">INSPIRATION</a></li>
+								</ul>
+							</li>
+							<li><a href="news.html" class="tran3s"><span class="fa fa-newspaper-o" aria-hidden="true"></span>新闻</a></li>
+							<li><a href="contact.html" class="tran3s"><span class="fa fa-envelope" aria-hidden="true"></span>联系</a></li>
+						</ul>
+					</div> <!-- /.aside-menu-wrapper -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.hidden-aside-menu -->
+
+
+			<!-- 
+			=============================================
+				Theme Header
+			============================================== 
+			-->
+			<header class="theme-menu-wrapper">
+				<div class="container">
+					<!-- Logo -->
+					<div class="logo float-left"><a href="index.html"><img src="images/logo/ucclogo.png" alt="Logo"></a></div>
+					
+					<!-- Toggle Menu Button -->
+					<button class="toggle-show-menu-button float-right">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+ 
+					 
+					<!-- ============================ Theme Menu ========================= -->
+					<nav class="theme-main-menu float-right">
+						<ul>
+							<li><a href="index.html" class="tran3s">首页</a>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">我们</a>
+								<ul class="sub-menu">
+									<li><a href="about-us-v1.html">公司简介</a></li>
+									<li><a href="about-us-v2.html">发展历程</a></li>
+									<li><a href="about-us-v3.html">价值理念</a></li>
+									<li><a href="about-us-v4.html">荣誉资质</a></li>
+									<li><a href="about-us-v5.html">企业文化</a></li>
+									<li><a href="about-us-v6.html">服务团队</a></li>
+									<li><a href="about-us-v7.html">服务网络</a></li>
+								</ul>	
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">服务</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">品牌策划</a></li>
+									<li><a href="service-v2.html">公关活动</a></li>
+									<li><a href="service-v3.html">会议管理</a></li>
+									<li><a href="service-v4.html">奖励旅游</a></li>
+									<li><a href="service-v5.html">展览展示</a></li>
+									<li><a href="service-v6.html">目的地营销</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">品牌</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">UMICE</a></li>
+									<li><a href="portfoilo-v2.html">UEVENT</a></li>
+									<li><a href="portfoilo-v3.html">UEXPO</a></li>
+									<li><a href="portfoilo-v4.html">INSPIRATION</a></li>
+								</ul>
+							</li>
+							<li><a href="news.html" class="tran3s">新闻</a></li>
+							<li><a href="contact.html" class="tran3s">联系</a></li>
+						</ul>
+					</nav> <!-- /.theme-main-menu -->
+				</div> <!-- /.container -->
+			</header> <!-- /.theme-menu-wrapper -->
+			
+			<!-- 
+			=============================================
+				Theme Main Banner
+			============================================== 
+			-->
+
+			<div id="theme-main-banner">
+				<div data-src="images/home/ucc.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h1 class="wow fadeInUp animated">TOGETHER, <br>WE ARE MAKING IT HAPPEN.</h1>
+							<p class="wow fadeInUp animated" data-wow-delay="0.5s">UCC 众信博睿，深度洞悉本土思路，广泛体会国际理念，共同筑就最值得信赖的“全服务”平台。</p>
+							<a href="contact.html" class="tran3s wow fadeInLeft animated hvr-bounce-to-right" data-wow-delay="1s">Contact Us</a>
+							<a href="service-v1.html" class="tran3s wow fadeInRight animated hvr-bounce-to-right" data-wow-delay="1s">SEE SERVICES</a>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="images/home/umice.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h1 class="wow fadeInUp animated">EVERYDAY, <br>WE ARE MAKING IT HAPPEN.</h1>
+							<p class="wow fadeInUp animated" data-wow-delay="0.5s">UMICE 众信商务会奖，全时效会奖旅游专家，由规划至运营的全流程品质服务。</p>
+							<a href="contact.html" class="tran3s wow fadeInLeft animated hvr-bounce-to-right" data-wow-delay="1s">Contact Us</a>
+							<a href="service-v1.html" class="tran3s wow fadeInRight animated hvr-bounce-to-right" data-wow-delay="1s">SEE SERVICES</a>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="images/home/uevent.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h1 class="wow fadeInUp animated">EVERYTIME, <br>WE ARE MAKING IT HAPPEN.</h1>
+							<p class="wow fadeInUp animated" data-wow-delay="0.5s">UEVENT 优逸文，全方位活动策划运营，由规划至运营的全流程品质服务。</p>
+							<a href="contact.html" class="tran3s wow fadeInLeft animated hvr-bounce-to-right" data-wow-delay="1s">Contact Us</a>
+							<a href="service-v1.html" class="tran3s wow fadeInRight animated hvr-bounce-to-right" data-wow-delay="1s">SEE SERVICES</a>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="images/home/uexpo.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h1 class="wow fadeInUp animated">EVERYWHERE, <br>WE ARE MAKING IT HAPPEN.</h1>
+							<p class="wow fadeInUp animated" data-wow-delay="0.5s">UEXPO 优众国际，全球化展览展示工程，由规划至运营的全流程品质服务。</p>
+							<a href="contact.html" class="tran3s wow fadeInLeft animated hvr-bounce-to-right" data-wow-delay="1s">Contact Us</a>
+							<a href="service-v1.html" class="tran3s wow fadeInRight animated hvr-bounce-to-right" data-wow-delay="1s">SEE SERVICES</a>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+			</div> <!-- /#theme-main-banner -->
+
+
+
+
+			<!-- 
+			=============================================
+				About Agency
+			============================================== 
+			-->
+			<section class="about-agency wow fadeInUp">
+				<div class="container">
+					<div class="section-title clear-fix">
+						<h3 class="float-left">我们的服务品牌包括:</h3>
+						<a href="about-us.html" class="float-right hvr-shutter-out-horizontal tran3s">More About us</a>
+					</div> <!-- /.section-title -->
+
+					<div class="row">
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="single-content-holder">
+								<img src="images/logo/umice.jpg" alt="Logo">
+								<div style="margin-left: 30px">
+									<h5>UMICE简介</h5>
+									<p>lorem Ipsum simple du printing deu and worold lepetting industry. Lorem Ipsum feet never ever forget dsu quality checking text here</p>
+									<a href="about-us.html" class="tran3s">READ MORE</a>
+								</div>
+							</div> <!-- /.single-content-holder -->
+						</div> <!-- /.col- -->
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="single-content-holder">
+								<img src="images/logo/uevent.jpg" alt="Logo">
+								<div style="margin-left: 60px">
+									<h5>UEVENT简介</h5>
+									<p>lorem Ipsum simple du printing deu and worold lepetting industry. Lorem Ipsum feet never ever forget dsu quality checking text here</p>
+									<a href="about-us.html" class="tran3s">READ MORE</a>
+							    </div>
+							</div> <!-- /.single-content-holder -->
+						</div> <!-- /.col- -->
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="single-content-holder">
+								<img src="images/logo/uexpo.jpg" alt="Logo">
+								<div style="margin-left: 60px">
+									<h5>UEXPO简介</h5>
+									<p>lorem Ipsum simple du printing deu and worold lepetting industry. Lorem Ipsum feet never ever forget dsu quality checking text here</p>
+									<a href="about-us.html" class="tran3s">READ MORE</a>
+								</div>
+							</div> <!-- /.single-content-holder -->
+						</div> <!-- /.col- -->
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="single-content-holder">
+								<img src="images/logo/inspiration.jpg" alt="Logo">
+								<div style="margin-left: 40px">
+									<h5>INSPIRATION简介</h5>
+									<p>lorem Ipsum simple du printing deu and worold lepetting industry. Lorem Ipsum feet never ever forget dsu quality checking text here</p>
+									<a href="about-us.html" class="tran3s">READ MORE</a>
+								</div>
+							</div> <!-- /.single-content-holder -->
+						</div> <!-- /.col- -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section> <!-- /.consultant-section -->
+
+
+			<!-- 
+			=============================================
+				Service Section
+			==============================================
+			-->
+			<section class="home-service-section">
+				<div class="container">
+					<div class="service-content-holder wow fadeInLeft">
+						<div class="theme-title">
+							<h2>我们的服务</h2>
+						</div>
+						<p>珍视客户品牌，重视服务品质。我们始终以关注结果的全局视角来对待过程的局部细节，从而赢得客户的无限托付，为众多本土及国际客户提供了有效的创意与理念，落实了精准的执行与服务，并无时不以客户的最终目标为执行环节的唯一参照，使得全面竞争力日益提升。</p>
+
+						<div class="row">
+							<div class="col-sm-6" >
+								<div class="single-service">
+									<h6><img src="images/logo/Service_MICE.png" alt="Logo" style="margin-left: -65px;margin-bottom: -40px"> <a href="#" class="tran3s">奖励旅游</a></h6>
+									<p>奖励旅游服务。专业高效，安全有序，无限精彩的奖励旅游活动。</p>
+								</div> <!-- /.single-service -->
+							</div> <!-- /.col -->
+							<div class="col-sm-6">
+								<div class="single-service">
+									<h6><img src="images/logo/Service_Meeting.png" alt="Logo" style="margin-left: -65px;margin-bottom: -40px"><a href="#" class="tran3s">会议管理</a></h6>
+									<p>会议管理运营。把握细节，操作规范，经验丰富的会议管理标准。</p>
+								</div> <!-- /.single-service -->
+							</div> <!-- /.col -->
+							<div class="col-sm-6">
+								<div class="single-service">
+									<h6><img src="images/logo/Service_PR.png" alt="Logo" style="margin-left: -65px;margin-bottom: -40px"><a href="#" class="tran3s">公关活动</a></h6>
+									<p>公关策划执行。运营有序，规划精致，灵动得体的公关活动执行。</p>
+								</div> <!-- /.single-service -->
+							</div> <!-- /.col -->
+							<div class="col-sm-6">
+								<div class="single-service">
+									<h6><img src="images/logo/Service_Destination.png" alt="Logo" style="margin-left: -65px;margin-bottom: -40px"><a href="#" class="tran3s">目的地营销</a></h6>
+									<p>目的地全案营销。国际视野，高适应度，专注结果的目的地营销策划。</p>
+								</div> <!-- /.single-service -->
+							</div> <!-- /.col -->
+							<div class="col-sm-6">
+								<div class="single-service">
+									<h6><img src="images/logo/Service_Exhibition.png" alt="Logo" style="margin-left: -65px;margin-bottom: -40px"><a href="#" class="tran3s">展览展示</a></h6>
+									<p>展览展示工程。全程规划，系统严谨，周到服务的展览展示工程。</p>
+								</div> <!-- /.single-service -->
+							</div> <!-- /.col -->
+							<div class="col-sm-6">
+								<div class="single-service">
+									<h6><img src="images/logo/Service_Branding.png" alt="Logo" style="margin-left: -65px;margin-bottom: -40px"><a href="#" class="tran3s">品牌策划</a></h6>
+									<p>品牌营销支持。理解需求，了解市场，专注实效的品牌营销支持。</p>
+								</div> <!-- /.single-service -->
+							</div> <!-- /.col -->
+						</div> <!-- /.row -->
+					</div> <!-- /.service-content-holder -->
+				</div> <!-- /.container -->
+
+				<div class="image-bg-section wow fadeInRight">
+					 
+				</div> <!-- /.image-bg-section -->
+			</section> <!-- /.home-service-section -->
+
+			 
+			<!-- 
+			=============================================
+				Project Section
+			============================================== 
+			-->
+			<section class="project-section wow fadeInUp">
+				<div class="container">
+					<div class="theme-title center">
+						<h2>服务业绩例举</h2>
+					</div>
+				</div>
+
+				<div class="container isotop-menu-wrapper">
+					<ul class="gallery-menu">
+						<li class="is-checked tran3s" data-filter="*">全部</li>
+						<li class="tran3s" data-filter=".design">品牌策划</li>
+						<li class="tran3s" data-filter=".app">公关活动</li>
+						<li class="tran3s" data-filter=".print">会议管理</li>
+						<li class="tran3s" data-filter=".marketing">奖励旅游</li>
+						<li class="tran3s" data-filter=".print">展览展示</li>
+						<li class="tran3s" data-filter=".marketing">目的地营销</li>
+					</ul>
+				</div> <!-- End .menu_wrapper -->
+
+				<div class="container">
+					<div id="isotop-gallery-wrapper" class="row">
+						<div class="grid-sizer"></div>
+						<div class="isotop-item app marketing">
+							<div class="single-item">
+								<img src="images/project/1.jpg" alt="Image">
+								<a href="images/project/1.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item design print app">
+							<div class="single-item">
+								<img src="images/project/2.jpg" alt="Image">
+								<a href="images/project/2.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item design print">
+							<div class="single-item">
+								<img src="images/project/3.jpg" alt="Image">
+								<a href="images/project/3.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item app print">
+							<div class="single-item">
+								<img src="images/project/4.jpg" alt="Image">
+								<a href="images/project/4.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item app print design">
+							<div class="single-item">
+								<img src="images/project/5.jpg" alt="Image">
+								<a href="images/project/5.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item double-column marketing">
+							<div class="single-item">
+								<img src="images/project/6.jpg" alt="Image">
+								<a href="images/project/6.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+					</div> <!-- /#isotop-gallery-wrapper -->
+				</div>
+			</section> <!-- /.project-section -->
+
+ 
+			<!-- 
+			=============================================
+				News Section
+			============================================== 
+			-->
+			<section class="latest-news">
+				<div class="container">
+					<div class="clear-fix">
+						<div class="theme-title float-left">
+							<h2>新闻</h2>
+						</div>
+					</div>
+
+					<div class="row news-post-wrapper">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="single-news-post">
+								<div class="img">
+									<img src="images/blog/1.jpg" alt="Image">
+									<a href="news-details.html" class="opacity tran4s"><i class="fa fa-chain" aria-hidden="true"></i></a>
+								</div> <!-- /.img -->
+								<div class="post">
+									<span>17 jun, 2016</span>
+									<h5><a href="news-details.html" class="tran3s">We provide most valuable online service ever.</a></h5>
+									<p>Sed ut perspiciatis unde omnis iste natus error sit volu accusantium doloremque laudantium, totam rem aperiam, eaque ipsa lorem.</p>
+									<a href="news-details.html" class="tran3s read-more hvr-bounce-to-right">Read More</a>
+								</div>
+							</div> <!-- /.single-news-post -->
+						</div> <!-- /.col- -->
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="single-news-post">
+								<div class="img">
+									<img src="images/blog/2.jpg" alt="Image">
+									<a href="news-details.html" class="opacity tran4s"><i class="fa fa-chain" aria-hidden="true"></i></a>
+								</div> <!-- /.img -->
+								<div class="post">
+									<span>17 jun, 2016</span>
+									<h5><a href="news-details.html" class="tran3s">We provide most valuable online service ever.</a></h5>
+									<p>Sed ut perspiciatis unde omnis iste natus error sit volu accusantium doloremque laudantium, totam rem aperiam, eaque ipsa lorem.</p>
+									<a href="news-details.html" class="tran3s read-more hvr-bounce-to-right">Read More</a>
+								</div>
+							</div> <!-- /.single-news-post -->
+						</div> <!-- /.col- -->
+						<div class="col-md-4 col-xs-12">
+							<div class="single-news-post">
+								<div class="img">
+									<img src="images/blog/3.jpg" alt="Image">
+									<a href="news-details.html" class="opacity tran4s"><i class="fa fa-chain" aria-hidden="true"></i></a>
+								</div> <!-- /.img -->
+								<div class="post">
+									<span>17 jun, 2016</span>
+									<h5><a href="news-details.html" class="tran3s">We provide most valuable online service ever.</a></h5>
+									<p>Sed ut perspiciatis unde omnis iste natus error sit volu accusantium doloremque laudantium, totam rem aperiam, eaque ipsa lorem.</p>
+									<a href="news-details.html" class="tran3s read-more hvr-bounce-to-right">Read More</a>
+								</div>
+							</div> <!-- /.single-news-post -->
+						</div> <!-- /.col- -->
+					</div> <!-- /.news-post-wrapper -->
+				</div> <!-- /.container -->
+			</section> <!-- /.latest-news -->
+
+
+
+
+			<!-- 
+			=============================================
+				Partner Logo
+			============================================== 
+			-->
+			<div class="partent-logo-section">
+				<div class="container">
+					<div id="partner-logo">
+						<div class="item"><img src="images/logo/p-1.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-2.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-3.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-4.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-2.png" alt="logo"></div>
+					</div>
+				</div>
+			</div> <!-- /.partent-logo-section -->
+
+
+
+			
+			<!-- 
+			=============================================
+				Footer
+			============================================== 	 
+			-->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-5">
+							<div class="footer-logo" style="margin-top: 40px">
+								<a href="index.html"><img src="images/logo/logo-footer.png" alt="Logo"></a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-3 aside-menu-wrapper">
+							<ul class="main-nav-wrapper">
+								<li><a href="index.html" class="tran3s">首页</a></li>
+								<li><a href="about-us-v1.html" class="tran3s">我们</a></li>
+								<li><a href="service-v1.html" class="tran3s">服务</a></li>
+						    </ul>
+						</div>
+						<div class="col-md-2 col-sm-3 aside-menu-wrapper">
+							<ul class="main-nav-wrapper">
+								<li><a href="portfoilo-v1.html">品牌</a></li>
+								<li><a href="news.html" class="tran3s">新闻</a></li>
+								<li><a href="contact.html" class="tran3s">联系</a></li>
+							</ul>
+						</div>
+					</div> <!-- /.row -->
+
+					<div class="bottom-footer clear-fix">
+						<p class="float-left">All Right Reserved 2017 &copy; <a href="http://themeforest.net/user/creativegigs/portfolio" target="_blank" class="tran3s">UCC.</a></p>
+						<ul class="float-right">
+							<li><a href="" class="tran3s round-border"><i class="fa fa-weixin" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-play-circle" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+						</ul>
+					</div> <!-- /.bottom-footer -->
+				</div> <!-- /.container -->
+			</footer>
+
+
+
+	        
+
+	        <!-- Scroll Top Button -->
+			<button class="scroll-top tran3s">
+				<i class="fa fa-angle-up" aria-hidden="true" ></i>
+			</button>
+
+
+
+
+
+		<!-- Js File_________________________________ -->
+
+		<!-- j Query -->
+		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+
+		<!-- Vendor js _________ -->
+		<!-- Camera Slider -->
+		<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/camera.min.js'></script>
+
+	    <!-- Progress Bar js -->
+		<script type="text/javascript" src="vendor/skills-master/jquery.skills.js"></script>
+		<!-- isotop -->
+		<script type="text/javascript" src="vendor/isotope.pkgd.min.js"></script>
+		
+		<!-- WOW js -->
+		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- owl.carousel -->
+		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- js count to -->
+		<script type="text/javascript" src="vendor/jquery.appear.js"></script>
+		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
+		<!-- fancy box -->
+		<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox.pack.js"></script>
+		<!-- Custom Scroll -->
+		<script src="vendor/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="js/theme.js"></script>
+
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>

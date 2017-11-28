@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Inspire || Responsive html5 Business template</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+
+
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+		<!-- Fix Internet Explorer ______________________________________-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->
+			
+	</head>
+
+	<body>
+		<div class="main-page-wrapper">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+			</div>
+
+			<!-- ===================================================
+				Toggle Menu Content Wrapper
+			==================================================== -->
+			<div id="hidden-aside-menu">
+				<div class="opacity">
+					<button class="close-aside-menu tran3s round-border">
+						<i class="fa fa-close" aria-hidden="true"></i>
+					</button>
+
+					<div class="aside-menu-wrapper">
+						<a href="index.html" class="logo"><img src="images/logo/logo.png" alt="Logo"></a>
+						
+						<ul class="main-nav-wrapper">
+							<li class="dropdown-holder current-active"><a href="#" class="tran3s"><span class="fa fa-home" aria-hidden="true"></span> Home</a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Home version one</a></li>
+									<li><a href="index-2.html">Home version Two</a></li>
+								</ul>
+							</li>
+							<li><a href="about-us.html" class="tran3s"><span class="fa fa-info-circle" aria-hidden="true"></span> About Us</a></li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-cog" aria-hidden="true"></span> Services</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">Service version one</a></li>
+									<li><a href="service-v2.html">Service version two</a></li>
+									<li><a href="service-v3.html">Service version three</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#"><span class="fa fa-external-link-square" aria-hidden="true"></span> Pages</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">portfolio version one</a></li>
+									<li><a href="portfoilo-v2.html">portfolio version two</a></li>
+									<li><a href="portfoilo-v3.html">portfolio version three</a></li>
+									<li><a href="team.html">Our team</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s"><span class="fa fa-newspaper-o" aria-hidden="true"></span> News</a>
+								<ul class="sub-menu">
+									<li><a href="news.html">blog</a></li>
+									<li><a href="news-details.html">Blog Details</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html" class="tran3s"><span class="fa fa-envelope" aria-hidden="true"></span> Contact us</a></li>
+						</ul>
+					</div> <!-- /.aside-menu-wrapper -->
+				</div> <!-- /.opacity -->
+			</div> <!-- /.hidden-aside-menu -->
+
+
+			<!-- 
+			=============================================
+				Theme Header
+			============================================== 
+			-->
+			<header class="theme-menu-wrapper">
+				<div class="container-fluid">
+					<!-- Logo -->
+					<div class="logo float-left"><a href="index.html"><img src="images/logo/logo.png" alt="Logo"></a></div>
+					
+					<!-- Toggle Menu Button -->
+					<button class="toggle-show-menu-button float-right">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+
+					<!-- Search Bar -->
+					<div class="search-option float-right">
+				   		<button class="search tran3s dropdown-toggle" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+				   		<form action="#" class="p-color-bg dropdown-menu tran3s" aria-labelledby="searchDropdown">
+				   			<input type="text" placeholder="Search....">
+				   			<button class="p-color-bg"><i class="fa fa-search" aria-hidden="true"></i></button>
+				   		</form>
+				   </div> <!-- /.search-option -->
+
+					<!-- Curt Button -->
+					<button class="cart-button float-right">
+						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+						<span class="round-border">0</span>
+					</button>
+
+					<!-- ============================ Theme Menu ========================= -->
+					<nav class="theme-main-menu float-right">
+						<ul>
+							<li class="dropdown-holder"><a href="#" class="tran3s">Home</a>
+								<ul class="sub-menu">
+									<li><a href="index.html">Home version one</a></li>
+									<li><a href="index-2.html">Home version Two</a></li>
+								</ul>
+							</li>
+							<li><a href="about-us.html" class="tran3s">About Us</a></li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">Services</a>
+								<ul class="sub-menu">
+									<li><a href="service-v1.html">Service version one</a></li>
+									<li><a href="service-v2.html">Service version two</a></li>
+									<li><a href="service-v3.html">Service version three</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">Pages</a>
+								<ul class="sub-menu">
+									<li><a href="portfoilo-v1.html">portfolio version one</a></li>
+									<li><a href="portfoilo-v2.html">portfolio version two</a></li>
+									<li><a href="portfoilo-v3.html">portfolio version three</a></li>
+									<li><a href="team.html">Our team</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-holder"><a href="#" class="tran3s">News</a>
+								<ul class="sub-menu">
+									<li><a href="news.html">blog</a></li>
+									<li><a href="news-details.html">Blog Details</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html" class="tran3s">Contact us</a></li>
+						</ul>
+					</nav> <!-- /.theme-main-menu -->
+				</div> <!-- /.container -->
+			</header> <!-- /.theme-menu-wrapper -->
+			
+			<!-- 
+			=============================================
+				Theme Main Banner
+			============================================== 
+			-->
+
+			<div id="theme-main-banner" class="center-item">
+				<div data-src="images/home/slide-1.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h1 class="wow fadeInUp animated">We Provide <span></span>Quality Business Service!!</span></h1>
+							<p class="wow fadeInUp animated" data-wow-delay="0.5s">We have expert more than 20 years experience  for your service!!</p>
+							<a href="contact.html" class="tran3s wow fadeInLeft animated hvr-shutter-out-horizontal" data-wow-delay="1s">Contact Us</a>
+							<a href="service-v1.html" class="tran3s wow fadeInRight animated hvr-shutter-out-horizontal" data-wow-delay="1s">SEE SERVICES</a>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="images/home/slide-2.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h1 class="wow fadeInUp animated">The best b2b solution</h1>
+							<p class="wow fadeInUp animated" data-wow-delay="0.5s">We have expert more than 20 years experience  for your service!!</p>
+							<a href="contact.html" class="tran3s wow fadeInLeft animated hvr-shutter-out-horizontal" data-wow-delay="1s">Contact Us</a>
+							<a href="service-v1.html" class="tran3s wow fadeInRight animated hvr-shutter-out-horizontal" data-wow-delay="1s">SEE SERVICES</a>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="images/home/slide-3.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<h1 class="wow fadeInUp animated">The best b2b solution</h1>
+							<p class="wow fadeInUp animated" data-wow-delay="0.5s">We have expert more than 20 years experience  for your service!!</p>
+							<a href="contact.html" class="tran3s wow fadeInLeft animated hvr-shutter-out-horizontal" data-wow-delay="1s">Contact Us</a>
+							<a href="service-v1.html" class="tran3s wow fadeInRight animated hvr-shutter-out-horizontal" data-wow-delay="1s">SEE SERVICES</a>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+			</div> <!-- /#theme-main-banner -->
+
+
+
+
+			<!-- 
+			=============================================
+				About Agency Style two
+			============================================== 
+			-->
+			<section class="about-agency-style-two">
+				<div class="container">
+					<div class="left-side float-left wow fadeInLeft">
+						<h2>Provide <span></span> Business solution <span></span>To our client!!</h2>
+						<p>We have experinece more than 20 years enough to provide best services ever!!</p>
+						<a href="about-us.html" class="tran3s hvr-shutter-out-horizontal">More About Us</a>
+					</div> <!-- /.left-side -->
+
+					<div class="right-side float-left">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="single-content-holder">
+									<i class="icon flaticon-bulb"></i>
+									<h5><a href="about-us.html">Crafted Design</a></h5>
+									<p>We have expert worker more 20 year of experience that’s enough to provide the best services ever!!</p>
+								</div> <!-- /.single-content-holder -->
+							</div> <!-- /.col- -->
+							<div class="col-sm-6">
+								<div class="single-content-holder">
+									<i class="icon flaticon-badge"></i>
+									<h5><a href="about-us.html">Professional</a></h5>
+									<p>We have expert worker more 20 year of experience that’s enough to provide the best services ever!!</p>
+								</div> <!-- /.single-content-holder -->
+							</div> <!-- /.col- -->
+							<div class="col-sm-6">
+								<div class="single-content-holder">
+									<i class="icon flaticon-bulb"></i>
+									<h5><a href="about-us.html">Easy Customize</a></h5>
+									<p>We have expert worker more 20 year of experience that’s enough to provide the best services ever!!</p>
+								</div> <!-- /.single-content-holder -->
+							</div> <!-- /.col- -->
+							<div class="col-sm-6">
+								<div class="single-content-holder">
+									<i class="icon flaticon-phone"></i>
+									<h5><a href="about-us.html">Responsive</a></h5>
+									<p>We have expert worker more 20 year of experience that’s enough to provide the best services ever!!</p>
+								</div> <!-- /.single-content-holder -->
+							</div> <!-- /.col- -->
+						</div> <!-- /.row -->
+					</div> <!-- /.right-side -->
+				</div> <!-- /.container -->
+			</section> <!-- /.consultant-section -->
+
+
+
+
+
+			<!-- 
+			=============================================
+				Project Section
+			============================================== 
+			-->
+			<section class="project-section wow fadeInUp pattern-bg">
+				<div class="container">
+					<div class="theme-title center">
+						<h2>Our Project</h2>
+					</div>
+				</div>
+
+				<div class="container isotop-menu-wrapper">
+					<ul class="gallery-menu">
+						<li class="is-checked tran3s" data-filter="*">All</li>
+						<li class="tran3s" data-filter=".design">Graphics Design</li>
+						<li class="tran3s" data-filter=".app">App Development</li>
+						<li class="tran3s" data-filter=".print">Print Design</li>
+						<li class="tran3s" data-filter=".marketing">Marketing</li>
+					</ul>
+				</div> <!-- End .menu_wrapper -->
+
+				<div>
+					<div id="isotop-gallery-wrapper">
+						<div class="grid-sizer"></div>
+						<div class="isotop-item double-column app marketing">
+							<div class="single-item">
+								<img src="images/project/7.jpg" alt="Image">
+								<a href="images/project/7.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item design print app">
+							<div class="single-item">
+								<img src="images/project/8.jpg" alt="Image">
+								<a href="images/project/8.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item design print">
+							<div class="single-item">
+								<img src="images/project/9.jpg" alt="Image">
+								<a href="images/project/9.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item app print">
+							<div class="single-item">
+								<img src="images/project/10.jpg" alt="Image">
+								<a href="images/project/10.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item app print design">
+							<div class="single-item">
+								<img src="images/project/11.jpg" alt="Image">
+								<a href="images/project/11.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item double-column marketing">
+							<div class="single-item">
+								<img src="images/project/12.jpg" alt="Image">
+								<a href="images/project/12.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item design print app marketing">
+							<div class="single-item">
+								<img src="images/project/13.jpg" alt="Image">
+								<a href="images/project/13.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+						<div class="isotop-item design print app ">
+							<div class="single-item">
+								<img src="images/project/14.jpg" alt="Image">
+								<a href="images/project/14.jpg" class="tran4s fancybox"><i class="fa fa-chain" aria-hidden="true"></i></a>
+							</div> <!-- /.single-item -->
+						</div> <!-- /.isotop-item -->
+					</div> <!-- /#isotop-gallery-wrapper -->
+				</div>
+				<a href="portfoilo-v2.html" class="view-more tran3s hvr-shutter-out-horizontal">View More</a>
+			</section> <!-- /.project-section -->
+
+
+
+
+
+			<!-- 
+			=============================================
+				Counter Number Section
+			============================================== 
+			-->
+			<section class="counter-number">
+				<div class="opacity">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-3 col-xs-12">
+								<div class="counter-box">
+									<i class="icon flaticon-people"></i>
+									<div class="number"><span class="timer" data-from="0" data-to="120" data-speed="1500" data-refresh-interval="5">0</span>+</div>
+									<h6>Professional Expert</h6>
+								</div> <!-- /.counter-box -->
+							</div> <!-- /.col- -->
+							<div class="col-sm-3 col-xs-12">
+								<div class="counter-box">
+									<i class="icon flaticon-suitcase"></i>
+									<div class="number">$<span class="timer" data-from="0" data-to="50" data-speed="2000" data-refresh-interval="5">0</span></div>
+									<h6>Company Value</h6>
+								</div> <!-- /.counter-box -->
+							</div> <!-- /.col- -->
+							<div class="col-sm-3 col-xs-12">
+								<div class="counter-box">
+									<i class="icon flaticon-speaker"></i>
+									<div class="number"><span class="timer" data-from="0" data-to="780" data-speed="1500" data-refresh-interval="5">0</span>+</div>
+									<h6>Worldwide Client</h6>
+								</div> <!-- /.counter-box -->
+							</div> <!-- /.col- -->
+							<div class="col-sm-3 col-xs-12">
+								<div class="counter-box">
+									<i class="icon flaticon-coffee"></i>
+									<div class="number"><span class="timer" data-from="0" data-to="1230" data-speed="1500" data-refresh-interval="5">0</span></div>
+									<h6>Cups of coffe</h6>
+								</div> <!-- /.counter-box -->
+							</div> <!-- /.col- -->
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div> <!-- /.opacity -->
+			</section> <!-- /.counter-number -->
+
+
+
+
+			<!-- 
+			=============================================
+				Our Team Section
+			============================================== 
+			-->
+			<section class="our-team-section wow fadeInUp">
+				<div class="container">
+					<div class="clear-fix">
+						<div class="theme-title float-left">
+							<h2>Our Team</h2>
+						</div>
+						<a href="team.html" class="tran3s see-all-member float-right hvr-bounce-to-right">See all member</a>
+					</div>
+
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="single-team-member">
+								<div class="img"><img src="images/team/1.jpg" alt="Image"></div>
+								<a href="#" class="tran3s">Jubayer Al Hasan</a>
+								<p>Front End Developer</p>
+							</div> <!-- /.single-team-member -->
+						</div> <!-- /.col- -->
+						<div class="col-md-3 col-xs-6">
+							<div class="single-team-member">
+								<div class="img"><img src="images/team/2.jpg" alt="Image"></div>
+								<a href="#" class="tran3s">Rashed kabir abash</a>
+								<p>UI/UX Designer</p>
+							</div> <!-- /.single-team-member -->
+						</div> <!-- /.col- -->
+						<div class="col-md-3 col-xs-6">
+							<div class="single-team-member">
+								<div class="img"><img src="images/team/3.jpg" alt="Image"></div>
+								<a href="#" class="tran3s">Faqrul Munna</a>
+								<p>Online Marketer</p>
+							</div> <!-- /.single-team-member -->
+						</div> <!-- /.col- -->
+						<div class="col-md-3 col-xs-6">
+							<div class="single-team-member">
+								<div class="img"><img src="images/team/4.jpg" alt="Image"></div>
+								<a href="#" class="tran3s">Muhibbur Rashid</a>
+								<p>Mobile App Devloper</p>
+							</div> <!-- /.single-team-member -->
+						</div> <!-- /.col- -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section> <!-- /.our-team-section -->
+
+
+
+			
+			<!-- 
+			=============================================
+				skill Progress Section
+			============================================== 
+			-->
+			<section class="company-skill align-right">
+				<div class="container">
+					<div class="skills-progress skills float-right wow fadeInLeft">
+						<div class="habilidades_contenedor">
+					        <div class="codeconSkills">
+					            <div class="codeconSkillbar">
+					            	<div class="skill-text">
+					            		<span class="codeconSkillArea">Graphics Design</span>
+					            	</div>
+					                <div class="skillBar" data-percent="80%">
+					                	<span class="PercentText">80%</span>
+					                </div>
+					            </div>
+					            <div class="codeconSkillbar">
+					            	<div class="skill-text">
+					            		<span class="codeconSkillArea ">Web Devlopment</span>
+					                    
+					            	</div>
+						            <div class="skillBar" data-percent="95%">
+						                <span class="PercentText">95%</span>
+						            </div>
+					            </div>
+						        <div class="codeconSkillbar">
+						        	<div class="skill-text">
+					            		<span class="codeconSkillArea">Marketing</span>
+					                    
+					            	</div>
+						            <div class="skillBar" data-percent="77%">
+						                <span class="PercentText">77%</span>
+						            </div>
+						        </div>
+						        <div class="codeconSkillbar">
+						        	<div class="skill-text">
+					            		<span class="codeconSkillArea">Mobile Application</span>
+					                    
+					            	</div>
+						            <div class="skillBar" data-percent="90%">
+						                <span class="PercentText">90%</span>
+						            </div>
+						        </div>
+					    	</div> <!-- /.codeconSkills -->
+					    </div> <!-- /.habilidades_contenedor -->
+					</div> <!-- /.skills-progress -->
+
+					<div class="text-content float-right wow fadeInRight">
+						<h4>We provide <span class="p-color">professional</span> service since 1982 with love!!</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit volu accusantium dolorem que laudantium, totam rem aperiam, eaque ipsaquae ab ilo invent fore verita tis et quasi architecto beatae lorem ipsum dsu </p>
+					</div>
+				</div> <!-- /.container -->
+			</section> <!-- /.company-skill -->
+
+
+
+
+			<!-- 
+			=============================================
+				Pricing section
+			============================================== 
+			-->
+			<section class="pricing-section color-bg wow fadeInUp">
+				<div class="opacity">
+					<div class="container">
+						<h2>Ready to Purchase?</h2>
+						<p>Choose the right membership for your company to start the journy with us!</p>
+
+						<div class="row">
+							<div class="grid-4 float-left">
+								<div class="single-price-table wow fadeInUp">
+									<strong>$24</strong>
+									<span>for Startup</span>
+									<ul>
+										<li>Support at $25/hour</li>
+										<li>1 GB of space</li>
+										<li>Full social media package</li>
+										<li>50 Bandwidth</li>
+									</ul>
+									<a href="#" class="tran3s hvr-bounce-to-right">BUY NOW</a>
+								</div> <!-- /.single-price-table -->
+							</div>
+							<div class="grid-4 float-left">
+								<div class="single-price-table wow fadeInUp">
+									<strong>$57</strong>
+									<span>for Agency</span>
+									<ul>
+										<li>Support at $25/hour</li>
+										<li>5 GB of space</li>
+										<li>Full social media package</li>
+										<li>70 Bandwidth</li>
+									</ul>
+									<a href="#" class="tran3s hvr-bounce-to-right">BUY NOW</a>
+								</div> <!-- /.single-price-table -->
+							</div>
+							<div class="grid-4 float-left">
+								<div class="single-price-table wow fadeInUp">
+									<strong>$77</strong>
+									<span>entrepreneur</span>
+									<ul>
+										<li>Support at $25/hour</li>
+										<li>5 GB of space</li>
+										<li>Full social media package</li>
+										<li>70 Bandwidth</li>
+									</ul>
+									<a href="#" class="tran3s hvr-bounce-to-right">BUY NOW</a>
+								</div> <!-- /.single-price-table -->
+							</div>
+							<div class="grid-4 float-left">
+								<div class="single-price-table wow fadeInUp">
+									<strong>$95</strong>
+									<span>For Business</span>
+									<ul>
+										<li>Support at $25/hour</li>
+										<li>50 GB of space</li>
+										<li>Full social media package</li>
+										<li>150 Bandwidth</li>
+									</ul>
+									<a href="#" class="tran3s hvr-bounce-to-right">BUY NOW</a>
+								</div> <!-- /.single-price-table -->
+							</div>
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div> <!-- /.opacity -->
+			</section> <!-- /.pricing-section -->
+
+
+
+			
+			<!-- 
+			=============================================
+				contact Banner
+			============================================== 
+			-->
+			<section class="contact-block-banner">
+				<div class="opacity">
+					<div class="container">
+						<h3>Join Us as Business Partners and Get Many Benefits</h3>
+						<a href="contact.html" class="tran3s hvr-bounce-to-right">Contact Us</a>
+					</div> <!-- /.container -->
+				</div> <!-- /.opacity -->
+			</section> <!-- /.contact-block-banner -->
+			
+
+
+
+			<!-- 
+			=============================================
+				News Section
+			============================================== 
+			-->
+			<section class="latest-news">
+				<div class="container">
+					<div class="clear-fix">
+						<div class="theme-title float-left">
+							<h2>Latest News</h2>
+						</div>
+						<a href="news.html" class="tran3s go-to-blog float-right hvr-bounce-to-right">Go to blog</a>
+					</div>
+
+					<div class="row news-post-wrapper">
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="single-news-post">
+								<div class="img">
+									<img src="images/blog/1.jpg" alt="Image">
+									<a href="news-details.html" class="opacity tran4s"><i class="fa fa-chain" aria-hidden="true"></i></a>
+								</div> <!-- /.img -->
+								<div class="post">
+									<span>17 jun, 2016</span>
+									<h5><a href="news-details.html" class="tran3s">We provide most valuable online service ever.</a></h5>
+									<p>Sed ut perspiciatis unde omnis iste natus error sit volu accusantium doloremque laudantium, totam rem aperiam, eaque ipsa lorem.</p>
+									<a href="news-details.html" class="tran3s read-more hvr-bounce-to-right">Read More</a>
+								</div>
+							</div> <!-- /.single-news-post -->
+						</div> <!-- /.col- -->
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="single-news-post">
+								<div class="img">
+									<img src="images/blog/2.jpg" alt="Image">
+									<a href="news-details.html" class="opacity tran4s"><i class="fa fa-chain" aria-hidden="true"></i></a>
+								</div> <!-- /.img -->
+								<div class="post">
+									<span>17 jun, 2016</span>
+									<h5><a href="news-details.html" class="tran3s">We provide most valuable online service ever.</a></h5>
+									<p>Sed ut perspiciatis unde omnis iste natus error sit volu accusantium doloremque laudantium, totam rem aperiam, eaque ipsa lorem.</p>
+									<a href="news-details.html" class="tran3s read-more hvr-bounce-to-right">Read More</a>
+								</div>
+							</div> <!-- /.single-news-post -->
+						</div> <!-- /.col- -->
+						<div class="col-md-4 col-xs-12">
+							<div class="single-news-post">
+								<div class="img">
+									<img src="images/blog/3.jpg" alt="Image">
+									<a href="news-details.html" class="opacity tran4s"><i class="fa fa-chain" aria-hidden="true"></i></a>
+								</div> <!-- /.img -->
+								<div class="post">
+									<span>17 jun, 2016</span>
+									<h5><a href="news-details.html" class="tran3s">We provide most valuable online service ever.</a></h5>
+									<p>Sed ut perspiciatis unde omnis iste natus error sit volu accusantium doloremque laudantium, totam rem aperiam, eaque ipsa lorem.</p>
+									<a href="news-details.html" class="tran3s read-more hvr-bounce-to-right">Read More</a>
+								</div>
+							</div> <!-- /.single-news-post -->
+						</div> <!-- /.col- -->
+					</div> <!-- /.news-post-wrapper -->
+				</div> <!-- /.container -->
+			</section> <!-- /.latest-news -->
+
+
+
+			<!-- 
+			=============================================
+				Satisfied Client
+			============================================== 
+			-->
+			<section class="satisfied-client bg-color">
+				<div class="container">
+					<h2>We Have 50000+ Satisfied Client Worldwide</h2>
+
+					<div class="row">
+						<div id="client-slider-two">
+							<div class="item">
+								<div class="one-client-text">
+									<div class="clear-fix">
+										<img src="images/home/c-4.jpg" alt="Image" class="float-left">
+										<div class="name float-left">
+											<h5>Rashed Kabir</h5>
+											<p>Founderd of Alibaba Co</p>
+										</div>
+									</div> <!-- /.clear-fix -->
+									<h6>Sed ut perspiciatis unde omnis isterror sit volu accusantium dolor is totamteg is aperiam eaque lorem dsu. </h6>
+								</div> <!-- /.one-client-text -->
+							</div> <!-- /.item -->
+
+							<div class="item">
+								<div class="one-client-text">
+									<div class="clear-fix">
+										<img src="images/home/c-5.jpg" alt="Image" class="float-left">
+										<div class="name float-left">
+											<h5>Jubayer Hasan</h5>
+											<p>Founderd of Alibaba Co</p>
+										</div>
+									</div> <!-- /.clear-fix -->
+									<h6>Sed ut perspiciatis unde omnis isterror sit volu accusantium dolor is totamteg is aperiam eaque lorem dsu. </h6>
+								</div> <!-- /.one-client-text -->
+							</div> <!-- /.item -->
+
+							<div class="item">
+								<div class="one-client-text">
+									<div class="clear-fix">
+										<img src="images/home/c-6.jpg" alt="Image" class="float-left">
+										<div class="name float-left">
+											<h5>Naim Kabir</h5>
+											<p>Founderd of Alibaba Co</p>
+										</div>
+									</div> <!-- /.clear-fix -->
+									<h6>Sed ut perspiciatis unde omnis isterror sit volu accusantium dolor is totamteg is aperiam eaque lorem dsu. </h6>
+								</div> <!-- /.one-client-text -->
+							</div> <!-- /.item -->
+
+							<div class="item">
+								<div class="one-client-text">
+									<div class="clear-fix">
+										<img src="images/home/c-4.jpg" alt="Image" class="float-left">
+										<div class="name float-left">
+											<h5>Rashed Kabir</h5>
+											<p>Founderd of Alibaba Co</p>
+										</div>
+									</div> <!-- /.clear-fix -->
+									<h6>Sed ut perspiciatis unde omnis isterror sit volu accusantium dolor is totamteg is aperiam eaque lorem dsu. </h6>
+								</div> <!-- /.one-client-text -->
+							</div> <!-- /.item -->
+
+							<div class="item">
+								<div class="one-client-text">
+									<div class="clear-fix">
+										<img src="images/home/c-4.jpg" alt="Image" class="float-left">
+										<div class="name float-left">
+											<h5>Rabiul Hasan</h5>
+											<p>Founderd of Alibaba Co</p>
+										</div>
+									</div> <!-- /.clear-fix -->
+									<h6>Sed ut perspiciatis unde omnis isterror sit volu accusantium dolor is totamteg is aperiam eaque lorem dsu. </h6>
+								</div> <!-- /.one-client-text -->
+							</div> <!-- /.item -->
+
+							<div class="item">
+								<div class="one-client-text">
+									<div class="clear-fix">
+										<img src="images/home/c-4.jpg" alt="Image" class="float-left">
+										<div class="name float-left">
+											<h5>Rashed Kabir</h5>
+											<p>Founderd of Alibaba Co</p>
+										</div>
+									</div> <!-- /.clear-fix -->
+									<h6>Sed ut perspiciatis unde omnis isterror sit volu accusantium dolor is totamteg is aperiam eaque lorem dsu. </h6>
+								</div> <!-- /.one-client-text -->
+							</div> <!-- /.item -->
+
+							<div class="item">
+								<div class="one-client-text">
+									<div class="clear-fix">
+										<img src="images/home/c-5.jpg" alt="Image" class="float-left">
+										<div class="name float-left">
+											<h5>Jubayer Hasan</h5>
+											<p>Founderd of Alibaba Co</p>
+										</div>
+									</div> <!-- /.clear-fix -->
+									<h6>Sed ut perspiciatis unde omnis isterror sit volu accusantium dolor is totamteg is aperiam eaque lorem dsu. </h6>
+								</div> <!-- /.one-client-text -->
+							</div> <!-- /.item -->
+
+							<div class="item">
+								<div class="one-client-text">
+									<div class="clear-fix">
+										<img src="images/home/c-6.jpg" alt="Image" class="float-left">
+										<div class="name float-left">
+											<h5>Naim Kabir</h5>
+											<p>Founderd of Alibaba Co</p>
+										</div>
+									</div> <!-- /.clear-fix -->
+									<h6>Sed ut perspiciatis unde omnis isterror sit volu accusantium dolor is totamteg is aperiam eaque lorem dsu. </h6>
+								</div> <!-- /.one-client-text -->
+							</div> <!-- /.item -->
+						</div> <!-- /#client-slider-two -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</section> <!-- /.satisfied-client -->
+
+
+
+
+			<!-- 
+			=============================================
+				Partner Logo
+			============================================== 
+			-->
+			<div class="partent-logo-section">
+				<div class="container">
+					<div id="partner-logo">
+						<div class="item"><img src="images/logo/p-1.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-2.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-3.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-4.png" alt="logo"></div>
+						<div class="item"><img src="images/logo/p-2.png" alt="logo"></div>
+					</div>
+				</div>
+			</div> <!-- /.partent-logo-section -->
+
+
+
+			
+			<!-- 
+			=============================================
+				Footer
+			============================================== 
+			-->
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-5">
+							<div class="footer-logo">
+								<a href="index.html"><img src="images/logo/logo-footer.png" alt="Logo"></a>
+								<h6>Multipurpose &amp; Creative Agency For Business Thinker.</h6>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-3">
+							<ul>
+								<li><a href="about-us.html" class="tran3s">About us</a></li>
+								<li><a href="#" class="tran3s">Support</a></li>
+								<li><a href="#" class="tran3s">Faq</a></li>
+								<li><a href="service-v2.html" class="tran3s">Services</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-sm-4">
+							<ul>
+								<li><a href="#" class="tran3s">Graphics</a></li>
+								<li><a href="#" class="tran3s">Web Devlopment</a></li>
+								<li><a href="#" class="tran3s">SEO &amp; SMM</a></li>
+								<li><a href="#" class="tran3s">Mobile App</a></li>
+							</ul>
+						</div>
+						<div class="col-md-5 col-xs-12">
+							<form action="#" class="subscribe-form">
+								<h5>Keep me update with all news from inspire.</h5>
+								<input type="text" placeholder="Enter your mail">
+								<button class="tran3s s-color-bg hvr-shutter-out-horizontal">Subscribe</button>
+							</form>
+						</div>
+					</div> <!-- /.row -->
+
+					<div class="bottom-footer clear-fix">
+						<p class="float-left">All Right Reserved 2016 &copy; <a href="http://themeforest.net/user/creativegigs/portfolio" target="_blank" class="tran3s">CreativeGigs</a></p>
+						<ul class="float-right">
+							<li><a href="" class="tran3s round-border"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+							<li><a href="" class="tran3s round-border"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						</ul>
+					</div> <!-- /.bottom-footer -->
+				</div> <!-- /.container -->
+			</footer>
+
+
+
+	        
+
+	        <!-- Scroll Top Button -->
+			<button class="scroll-top tran3s">
+				<i class="fa fa-angle-up" aria-hidden="true"></i>
+			</button>
+
+
+
+
+
+		<!-- Js File_________________________________ -->
+
+		<!-- j Query -->
+		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+
+		<!-- Vendor js _________ -->
+		<!-- Camera Slider -->
+		<script type='text/javascript' src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+	    <script type='text/javascript' src='vendor/Camera-master/scripts/camera.min.js'></script>
+
+	    <!-- Progress Bar js -->
+		<script type="text/javascript" src="vendor/skills-master/jquery.skills.js"></script>
+		<!-- isotop -->
+		<script type="text/javascript" src="vendor/isotope.pkgd.min.js"></script>
+
+		<!-- WOW js -->
+		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- owl.carousel -->
+		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- js count to -->
+		<script type="text/javascript" src="vendor/jquery.appear.js"></script>
+		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
+		<!-- fancy box -->
+		<script type="text/javascript" src="vendor/fancy-box/jquery.fancybox.pack.js"></script>
+		<!-- Custom Scroll -->
+		<script src="vendor/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="js/theme.js"></script>
+
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>
